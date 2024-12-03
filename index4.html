@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>اطلب الآن</title>
+    </head>
+    <body>
+      <fieldset>
+        <form method="get">
+          <h3>نموذج الطلب</h3>
+          <div>
+             <label for="name">الإسم</label>
+             <input id="name" type="text" autofocus required placeholder="الإسم" name="name">
+          </div>
+          <br>
+          <div>
+              <label for="namber">رقم الهاتف </label>
+             <input id="namber" type="number" required placeholder="رقم الهاتف" name="namber pohen" max="0599999999">
+          </div>
+          <br>
+          <div>
+              <label for="email">البريد الإلكتروني </label>
+             <input id="email" type="email" required placeholder="البريد الإلكتروني" name="email">
+          </div>
+         <hr>
+        <div>
+          <h3>إختر المطلوب</h3>
+          <div>
+              <input id="a" type="radio" name="os" value="دعوة زفاف" checked>
+              <label for="a">دعوة زفاف</label>
+          </div>
+          <div>
+              <input id="b" type="radio" name="os" value="دعوة حناء ">
+              <label for="b">دعوة حناء</label>
+          </div>
+          <div>
+              <input id="c" type="radio" name="os" value="تهنئة تخرج">
+              <label for="c">تهنئة تخرج</label>
+          </div>
+          <div>
+              <input id="d" type="radio" name="os" value="تهنئة مناسبات">
+              <label for="d">تهنئة مناسبات</label>
+          </div>
+        <div>
+          <input id="x" type="radio" name="os" value="بشرى مولود">
+          <label for="x">بشرى مولود</label>
+      </div>
+      <div>
+        <input id="m" type="radio" name="os" value="مونتاج فيديو">
+        <label for="m">مونتاج فيديو</label>
+      </div>
+        </div>
+        <hr>
+          <div>
+              <h3>إضافة ملاحظات الطلب</h3>
+              <textarea name="subject"  cols="50" rows="10" placeholder="إضافة ملاحظات الطلب"></textarea>
+          </div>
+       
+      
+          <input type="submit" value="إرسال">
+        
+       
+      </fieldset>
+       </form>
+    </body>
+</html>
